@@ -17,6 +17,9 @@
     "entrypoints": {
         "main": [
             "com.codebykieran.improvedobsidian.ImprovedObsidian"
+        ],
+        "client": [
+            "com.codebykieran.improvedobsidian.ImprovedObsidianClient"
         ]
     },
     "mixins": [

@@ -1,6 +1,6 @@
-package com.example.examplemod.mixin;
+package com.codebykieran.improvedobsidian.mixin;
 
-import com.example.examplemod.Constants;
+import com.codebykieran.improvedobsidian.Constants;
 import net.minecraft.client.Minecraft;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
@@ -13,7 +13,7 @@ public class MixinMinecraft {
     @Inject(at = @At("TAIL"), method = "<init>")
     private void init(CallbackInfo info) {
         
-        Constants.LOG.info("This line is printed by an example mod common mixin!");
+        Constants.LOG.info("Improved Obsidian Common resources!");
         Constants.LOG.info("MC Version: {}", Minecraft.getInstance().getVersionType());
     }
 }

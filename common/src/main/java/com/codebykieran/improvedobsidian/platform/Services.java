@@ -1,7 +1,7 @@
-package com.example.examplemod.platform;
+package com.codebykieran.improvedobsidian.platform;
 
-import com.example.examplemod.Constants;
-import com.example.examplemod.platform.services.IPlatformHelper;
+import com.codebykieran.improvedobsidian.Constants;
+import com.codebykieran.improvedobsidian.platform.services.IPlatformHelper;
 
 import java.util.ServiceLoader;
 

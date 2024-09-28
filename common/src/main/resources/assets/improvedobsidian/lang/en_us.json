@@ -1,0 +1,52 @@
+{
+  "item.improvedobsidian.obsidian_shard": "Obsidian Shard",
+  "item.improvedobsidian.obsiderite_ingot": "Obsiderite Ingot",
+  "item.improvedobsidian.obsiderite_dust": "Obsiderite Dust",
+  "item.improvedobsidian.obsidian_dust": "Obsidian Dust",
+
+  "item.improvedobsidian.obsiderite_pickaxe": "Obsiderite Pickaxe",
+  "item.improvedobsidian.obsiderite_hammer": "Obsiderite Hammer",
+  "item.improvedobsidian.obsiderite_hoe": "Obsiderite Hoe",
+  "item.improvedobsidian.obsiderite_axe": "Obsiderite Axe",
+  "item.improvedobsidian.obsiderite_shovel": "Obsiderite Shovel",
+  "item.improvedobsidian.obsiderite_sword": "Obsiderite Sword",
+
+  "item.improvedobsidian.obsiderite_helmet": "Obsiderite Helmet",
+  "item.improvedobsidian.obsiderite_chestplate": "Obsiderite Chestplate",
+  "item.improvedobsidian.obsiderite_leggings": "Obsiderite Leggings",
+  "item.improvedobsidian.obsiderite_boots": "Obsiderite Boots",
+  "itemGroup.improvedobsidian.obsidian": "Obsidian Mod",
+
+  "block.improvedobsidian.obsiderite_infusing_station": "Obsiderite Infusing Station",
+  "block.improvedobsidian.obsiderite_chest": "Obsiderite Chest",
+  "block.improvedobsidian.obsidian_grinder": "Obsidian Grinder",
+
+  "block.improvedobsidian.obsidian_flower_pot": "Obsidian Flower Pot",
+  "block.improvedobsidian.obsidian_end_table": "Obsidian End Table",
+  "block.improvedobsidian.obsidian_glass": "Obsidian Glass",
+  "block.improvedobsidian.obsidian_glass_pane": "Obsidian Glass Pane",
+  "block.improvedobsidian.obsidian_table_lamp": "Obsidian Table Lamp",
+
+  "block.improvedobsidian.obsidian_block": "Block of Obsidian",
+  "block.improvedobsidian.obsiderite_block": "Block of Obsiderite",
+  "block.improvedobsidian.compressed_obsidian": "Compressed Obsidian",
+  "block.improvedobsidian.obsidian_stairs": "Obsidian Stairs",
+  "block.improvedobsidian.obsidian_slab": "Obsidian Slab",
+  "block.improvedobsidian.obsidian_wall": "Obsidian Wall",
+  "block.improvedobsidian.obsidian_lamp": "Obsidian Lamp",
+
+  "container.improvedobsidian.obsiderite_chest": "Obsiderite Chest",
+
+  "advancements.improvedobsidian.obsiderite_armor.title": "Cover Me in Obsiderite",
+  "advancements.improvedobsidian.obsiderite_armor.description": "Get a full suit of Obsiderite armor",
+  "advancements.improvedobsidian.obsiderite_dust.title": "Dusted",
+  "advancements.improvedobsidian.obsiderite_dust.description": "Acquired Obsiderite Dust",
+  "advancements.improvedobsidian.obsiderite_hammer.title": "Hammer Time",
+  "advancements.improvedobsidian.obsiderite_hammer.description": "Craft an Obsiderite Hammer",
+  "advancements.improvedobsidian.obsiderite_ingot.title": "Obsid-alright",
+  "advancements.improvedobsidian.obsiderite_ingot.description": "Infused Netherite and Obsidian successfully",
+  "advancements.improvedobsidian.obsidian_grinder.title": "Time to Grind",
+  "advancements.improvedobsidian.obsidian_grinder.description": "Obtained the Obsidian Grinder",
+  "advancements.improvedobsidian.obsidian_shard.title": "This is shard",
+  "advancements.improvedobsidian.obsidian_shard.description": "Looted an Obsidian Shard"
+}
