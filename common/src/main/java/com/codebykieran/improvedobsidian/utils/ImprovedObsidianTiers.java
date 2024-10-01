@@ -1,4 +1,4 @@
-package com.codebykieran.improvedobsidian.tiers;
+package com.codebykieran.improvedobsidian.utils;
 
 import net.minecraft.tags.BlockTags;
 import net.minecraft.tags.TagKey;

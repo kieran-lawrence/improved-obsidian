@@ -1,0 +1,44 @@
+{
+    "parent": "minecraft:recipes/root",
+    "display": {
+        "announce_to_chat": true,
+        "description": {
+            "translate": "advancements.improvedobsidian.obsiderite_dust.description"
+        },
+        "frame": "challenge",
+        "hidden": false,
+        "icon": {
+            "item": "improvedobsidian:obsiderite_dust"
+        },
+        "show_toast": true,
+        "title": {
+            "translate": "advancements.improvedobsidian.obsiderite_dust.title"
+        }
+    },
+    "criteria": {
+        "has_obsiderite_dust": {
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "improvedobsidian:obsiderite_dust"
+                        ]
+                    }
+                ]
+            },
+            "trigger": "minecraft:inventory_changed"
+        }
+    },
+    "requirements": [
+        [
+            "has_obsiderite_dust"
+        ]
+    ],
+    "rewards": {
+        "recipes": [
+            "improvedobsidian:obsiderite_ingot",
+            "improvedobsidian:obsiderite_infusing_station"
+        ],
+        "experience": 2
+    }
+}

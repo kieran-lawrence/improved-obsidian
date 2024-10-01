@@ -1,0 +1,50 @@
+{
+    "display": {
+        "icon": {
+            "item": "improvedobsidian:obsiderite_ingot"
+        },
+
+        "title": {
+            "translate": "advancements.improvedobsidian.obsiderite_ingot.title"
+        },
+        "description": {
+            "translate": "advancements.improvedobsidian.obsiderite_ingot.description"
+        },
+        "frame": "goal",
+        "show_toast": true
+    },
+    "parent": "minecraft:recipes/root",
+    "criteria": {
+        "has_obsiderite_ingot": {
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "improvedobsidian:obsiderite_ingot"
+                        ]
+                    }
+                ]
+            },
+            "trigger": "minecraft:inventory_changed"
+        }
+    },
+    "requirements": [
+        [
+            "has_obsiderite_ingot"
+        ]
+    ],
+    "rewards": {
+        "recipes": [
+            "improvedobsidian:obsiderite_helmet_smithing",
+            "improvedobsidian:obsiderite_chestplate_smithing",
+            "improvedobsidian:obsiderite_leggings_smithing",
+            "improvedobsidian:obsiderite_sword_smithing",
+            "improvedobsidian:obsiderite_pickaxe_smithing",
+            "improvedobsidian:obsiderite_shovel_smithing",
+            "improvedobsidian:obsiderite_axe_smithing",
+            "improvedobsidian:obsiderite_hoe_smithing",
+            "improvedobsidian:obsiderite_block"
+        ],
+        "experience": 5
+    }
+}

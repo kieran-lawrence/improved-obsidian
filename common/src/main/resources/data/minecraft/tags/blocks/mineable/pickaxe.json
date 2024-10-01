@@ -1,0 +1,15 @@
+{
+    "replace": false,
+    "values": [
+        "improvedobsidian:compressed_obsidian",
+        "improvedobsidian:obsidian_stairs",
+        "improvedobsidian:obsidian_slab",
+        "improvedobsidian:obsiderite_chest",
+        "improvedobsidian:obsiderite_infusing_station",
+        "improvedobsidian:obsidian_grinder",
+        "improvedobsidian:obsidian_end_table",
+        "improvedobsidian:obsidian_lamp",
+        "improvedobsidian:obsidian_block",
+        "improvedobsidian:obsiderite_block"
+    ]
+}

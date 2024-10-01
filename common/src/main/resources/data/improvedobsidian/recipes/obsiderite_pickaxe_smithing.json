@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:smithing",
+    "addition": {
+        "item": "improvedobsidian:obsiderite_ingot"
+    },
+    "base": {
+        "item": "minecraft:netherite_pickaxe"
+    },
+    "result": {
+        "item": "improvedobsidian:obsiderite_pickaxe"
+    }
+}

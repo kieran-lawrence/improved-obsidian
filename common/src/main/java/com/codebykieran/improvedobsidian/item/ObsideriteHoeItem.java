@@ -1,6 +1,6 @@
 package com.codebykieran.improvedobsidian.item;
 
-import com.codebykieran.improvedobsidian.tiers.ImprovedObsidianTiers;
+import com.codebykieran.improvedobsidian.utils.ImprovedObsidianTiers;
 import net.minecraft.world.item.HoeItem;
 
 public class ObsideriteHoeItem extends HoeItem {

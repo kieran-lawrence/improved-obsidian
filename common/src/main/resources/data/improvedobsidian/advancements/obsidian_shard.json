@@ -1,0 +1,43 @@
+{
+    "display": {
+        "icon": {
+            "item": "improvedobsidian:obsidian_shard"
+        },
+        "title": {
+            "translate": "advancements.improvedobsidian.obsidian_shard.title"
+        },
+        "description": {
+            "translate": "advancements.improvedobsidian.obsidian_shard.description"
+        },
+        "frame": "task",
+        "show_toast": true
+    },
+    "parent": "minecraft:recipes/root",
+    "criteria": {
+        "has_obsidian_shard": {
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "improvedobsidian:obsidian_shard"
+                        ]
+                    }
+                ]
+            },
+            "trigger": "minecraft:inventory_changed"
+        }
+    },
+    "requirements": [
+        [
+            "has_obsidian_shard"
+        ]
+    ],
+    "rewards": {
+        "recipes": [
+            "improvedobsidian:obsidian_dust",
+            "improvedobsidian:obsidian_lamp",
+            "improvedobsidian:obsidian_end_table"
+        ],
+        "experience": 0.5
+    }
+}

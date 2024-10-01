@@ -1,0 +1,35 @@
+{
+    "display": {
+        "icon": {
+            "item": "improvedobsidian:obsiderite_hammer"
+        },
+        "title": {
+            "translate": "advancements.improvedobsidian.obsiderite_hammer.title"
+        },
+        "description": {
+            "translate": "advancements.improvedobsidian.obsiderite_hammer.description"
+        },
+        "frame": "task",
+        "show_toast": true
+    },
+    "parent": "minecraft:recipes/root",
+    "criteria": {
+        "has_obsiderite_hammer": {
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "improvedobsidian:obsiderite_hammer"
+                        ]
+                    }
+                ]
+            },
+            "trigger": "minecraft:inventory_changed"
+        }
+    },
+    "requirements": [
+        [
+            "has_obsiderite_hammer"
+        ]
+    ]
+}
