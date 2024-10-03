@@ -7,7 +7,7 @@ import net.minecraft.world.item.Item;
 import net.minecraftforge.registries.ForgeRegistries;
 import com.codebykieran.improvedobsidian.core.ImprovedObsidianItems;
 public class ImprovedObsidianItemsForge {
-    private static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, Constants.MOD_ID);
+    public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, Constants.MOD_ID);
 
     private static void registerItems() {
         ITEMS.register("obsiderite_axe", () -> ImprovedObsidianItems.OBSIDERITE_AXE);
@@ -27,8 +27,9 @@ public class ImprovedObsidianItemsForge {
 
     }
     public static void init() {
-        final IEventBus modBus = FMLJavaModLoadingContext.get().getModEventBus();
         registerItems();
+    }
+    public static void register(IEventBus modBus) {
         ITEMS.register(modBus);
     }
 }

@@ -1,5 +1,7 @@
 package com.codebykieran.improvedobsidian;
 
+import com.codebykieran.improvedobsidian.blocks.ImprovedObsidianBlocksFabric;
+import com.codebykieran.improvedobsidian.core.ImprovedObsidianBlocks;
 import com.codebykieran.improvedobsidian.core.ImprovedObsidianItems;
 import com.codebykieran.improvedobsidian.items.ImprovedObsidianItemsFabric;
 import net.fabricmc.api.ModInitializer;
@@ -13,6 +15,7 @@ public class ImprovedObsidian implements ModInitializer {
     public void onInitialize() {
         // Initialise common mod components
         ImprovedObsidianItemsFabric.init();
+        ImprovedObsidianBlocksFabric.init();
         registerCreativeTabEntries();
     }
 
@@ -24,6 +27,8 @@ public class ImprovedObsidian implements ModInitializer {
             entries.addAfter(ImprovedObsidianItems.OBSIDERITE_PICKAXE, ImprovedObsidianItems.OBSIDERITE_AXE);
             entries.addAfter(ImprovedObsidianItems.OBSIDERITE_AXE, ImprovedObsidianItems.OBSIDERITE_HOE);
             entries.addAfter(ImprovedObsidianItems.OBSIDERITE_HOE, ImprovedObsidianItems.OBSIDERITE_HAMMER);
+
+
         });
         // Add items to the combat tab
         ItemGroupEvents.modifyEntriesEvent(CreativeModeTabs.COMBAT).register(entries -> {
@@ -42,6 +47,21 @@ public class ImprovedObsidian implements ModInitializer {
             entries.addAfter(Items.GUNPOWDER, ImprovedObsidianItems.OBSIDIAN_DUST);
             entries.addAfter(Items.GUNPOWDER, ImprovedObsidianItems.OBSIDIAN_SHARD);
             entries.addAfter(Items.NETHERITE_INGOT, ImprovedObsidianItems.OBSIDERITE_INGOT);
+
+
+        });
+        ItemGroupEvents.modifyEntriesEvent(CreativeModeTabs.COLORED_BLOCKS).register(entries -> {
+            entries.addAfter(Items.GLASS, ImprovedObsidianBlocks.OBSIDIAN_GLASS);
+            entries.addAfter(ImprovedObsidianBlocks.OBSIDIAN_GLASS, ImprovedObsidianBlocks.OBSIDIAN_GLASS_PANE);
+            entries.accept(ImprovedObsidianBlocks.OBSIDIAN_BLOCK);
+            entries.accept(ImprovedObsidianBlocks.OBSIDERITE_BLOCK);
+            entries.accept(ImprovedObsidianBlocks.COMPRESSED_OBSIDIAN);
+            entries.accept(ImprovedObsidianBlocks.OBSIDIAN_TABLE_LAMP);
+            entries.accept(ImprovedObsidianBlocks.OBSIDIAN_END_TABLE);
+            entries.accept(ImprovedObsidianBlocks.OBSIDIAN_FLOWER_POT);
+            entries.accept(ImprovedObsidianBlocks.OBSIDIAN_STAIRS);
+            entries.accept(ImprovedObsidianBlocks.OBSIDIAN_WALL);
+            entries.accept(ImprovedObsidianBlocks.OBSIDIAN_SLAB);
         });
 
     }

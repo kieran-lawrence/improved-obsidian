@@ -1,5 +1,7 @@
 package com.codebykieran.improvedobsidian;
 
+import com.codebykieran.improvedobsidian.blocks.ImprovedObsidianBlocksForge;
+import com.codebykieran.improvedobsidian.core.ImprovedObsidianBlocks;
 import com.codebykieran.improvedobsidian.core.ImprovedObsidianItems;
 import com.codebykieran.improvedobsidian.items.ImprovedObsidianItemsForge;
 import net.minecraft.world.item.CreativeModeTab;
@@ -16,7 +18,10 @@ public class ImprovedObsidian {
     public ImprovedObsidian() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
         // Initialise common mod components
+        ImprovedObsidianItemsForge.register(modEventBus);
         ImprovedObsidianItemsForge.init();
+        ImprovedObsidianBlocksForge.register(modEventBus);
+        ImprovedObsidianBlocksForge.init();
         modEventBus.addListener(this::addCreative);
     }
 
@@ -43,6 +48,18 @@ public class ImprovedObsidian {
             event.getEntries().putAfter(Items.GUNPOWDER.getDefaultInstance(), ImprovedObsidianItems.OBSIDIAN_DUST.getDefaultInstance(), visibility);
             event.getEntries().putAfter(Items.GUNPOWDER.getDefaultInstance(), ImprovedObsidianItems.OBSIDIAN_SHARD.getDefaultInstance(), visibility);
             event.getEntries().putAfter(Items.NETHERITE_INGOT.getDefaultInstance(), ImprovedObsidianItems.OBSIDERITE_INGOT.getDefaultInstance(), visibility);
+        } else if(event.getTabKey() == CreativeModeTabs.COLORED_BLOCKS) {
+           event.accept(ImprovedObsidianBlocks.OBSIDIAN_GLASS);
+           event.accept(ImprovedObsidianBlocks.OBSIDIAN_GLASS_PANE);
+            event.accept(ImprovedObsidianBlocks.OBSIDIAN_BLOCK);
+            event.accept(ImprovedObsidianBlocks.OBSIDERITE_BLOCK);
+            event.accept(ImprovedObsidianBlocks.COMPRESSED_OBSIDIAN);
+            event.accept(ImprovedObsidianBlocks.OBSIDIAN_TABLE_LAMP);
+            event.accept(ImprovedObsidianBlocks.OBSIDIAN_END_TABLE);
+            event.accept(ImprovedObsidianBlocks.OBSIDIAN_FLOWER_POT);
+            event.accept(ImprovedObsidianBlocks.OBSIDIAN_STAIRS);
+            event.accept(ImprovedObsidianBlocks.OBSIDIAN_WALL);
+            event.accept(ImprovedObsidianBlocks.OBSIDIAN_SLAB);
         }
     }
 }

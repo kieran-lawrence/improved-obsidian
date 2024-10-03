@@ -1,4 +1,6 @@
+
 {
+  "render_type": "minecraft:translucent",
   "parent": "improvedobsidian:block/template_obsidian_glass_pane_side",
   "textures": {
     "edge": "improvedobsidian:block/obsidian_glass_pane_top",
