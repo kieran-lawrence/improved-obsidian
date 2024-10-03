@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+        "G": {
+            "item": "improvedobsidian:obsidian_glass"
+        },
+        "T": {
+            "item": "minecraft:torch"
+        },
+        "O": {
+            "item": "minecraft:obsidian"
+        }
+    },
+    "pattern": [
+        "GGG",
+        "GTG",
+        "OOO"
+    ],
+    "result": {
+        "item": "improvedobsidian:obsidian_table_lamp"
+    }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "improvedobsidian:block/template_obsidian_glass_pane_noside_alt",
+  "textures": {
+    "pane": "improvedobsidian:block/obsidian_glass"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "item": "improvedobsidian:obsidian_block"
+    }
+  },
+  "pattern": [
+    "  ",
+    "###",
+    "###"
+  ],
+  "result": {
+    "count": 6,
+    "item": "improvedobsidian:obsidian_wall"
+  }
+}

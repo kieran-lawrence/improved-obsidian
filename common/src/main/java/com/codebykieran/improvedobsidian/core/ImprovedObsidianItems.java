@@ -51,7 +51,7 @@ public class ImprovedObsidianItems {
         .fireResistant()
         .attributes(generateItemAttributes(8,-2.3f)
     ));
-    
+
     // Ingredients
     public static final Item OBSIDERITE_DUST = new ObsideriteDustItem(new Item.Properties());
     public static final Item OBSIDERITE_INGOT = new ObsideriteIngotItem(new Item.Properties());

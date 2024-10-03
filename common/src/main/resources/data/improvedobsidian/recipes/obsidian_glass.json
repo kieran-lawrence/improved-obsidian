@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:smelting",
+    "cookingtime": 200,
+    "experience": 0.1,
+    "ingredient": {
+        "tag": "improvedobsidian:obsidian_dust"
+    },
+    "result": "improvedobsidian:obsidian_glass"
+}
