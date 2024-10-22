@@ -27,19 +27,16 @@ public class ImprovedObsidian implements ModInitializer {
             entries.addAfter(ImprovedObsidianItems.OBSIDERITE_PICKAXE, ImprovedObsidianItems.OBSIDERITE_AXE);
             entries.addAfter(ImprovedObsidianItems.OBSIDERITE_AXE, ImprovedObsidianItems.OBSIDERITE_HOE);
             entries.addAfter(ImprovedObsidianItems.OBSIDERITE_HOE, ImprovedObsidianItems.OBSIDERITE_HAMMER);
-
-
         });
         // Add items to the combat tab
         ItemGroupEvents.modifyEntriesEvent(CreativeModeTabs.COMBAT).register(entries -> {
             entries.addAfter(Items.MACE, ImprovedObsidianItems.OBSIDERITE_HAMMER);
             entries.addAfter(Items.NETHERITE_SWORD, ImprovedObsidianItems.OBSIDERITE_SWORD);
             entries.addAfter(Items.NETHERITE_AXE,ImprovedObsidianItems.OBSIDERITE_AXE);
-            // After netherite boots
-            // Helmet
-            // Chest
-            // Legs
-            // Boots
+            entries.addAfter(Items.NETHERITE_BOOTS, ImprovedObsidianItems.OBSIDERITE_HELMET);
+            entries.addAfter(ImprovedObsidianItems.OBSIDERITE_HELMET, ImprovedObsidianItems.OBSIDERITE_CHESTPLATE);
+            entries.addAfter(ImprovedObsidianItems.OBSIDERITE_CHESTPLATE, ImprovedObsidianItems.OBSIDERITE_LEGGINGS);
+            entries.addAfter(ImprovedObsidianItems.OBSIDERITE_LEGGINGS, ImprovedObsidianItems.OBSIDERITE_BOOTS);
         });
         // Add items to the Ingredients tab
         ItemGroupEvents.modifyEntriesEvent(CreativeModeTabs.INGREDIENTS).register(entries -> {
@@ -47,8 +44,7 @@ public class ImprovedObsidian implements ModInitializer {
             entries.addAfter(Items.GUNPOWDER, ImprovedObsidianItems.OBSIDIAN_DUST);
             entries.addAfter(Items.GUNPOWDER, ImprovedObsidianItems.OBSIDIAN_SHARD);
             entries.addAfter(Items.NETHERITE_INGOT, ImprovedObsidianItems.OBSIDERITE_INGOT);
-
-
+            
         });
         ItemGroupEvents.modifyEntriesEvent(CreativeModeTabs.COLORED_BLOCKS).register(entries -> {
             entries.addAfter(Items.GLASS, ImprovedObsidianBlocks.OBSIDIAN_GLASS);

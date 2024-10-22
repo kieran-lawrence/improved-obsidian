@@ -37,12 +37,10 @@ public class ImprovedObsidian {
             event.getEntries().putAfter(Items.MACE.getDefaultInstance(), ImprovedObsidianItems.OBSIDERITE_HAMMER.getDefaultInstance(), visibility);
             event.getEntries().putAfter(Items.NETHERITE_SWORD.getDefaultInstance(), ImprovedObsidianItems.OBSIDERITE_SWORD.getDefaultInstance(), visibility);
             event.getEntries().putAfter(Items.NETHERITE_AXE.getDefaultInstance(), ImprovedObsidianItems.OBSIDERITE_AXE.getDefaultInstance(), visibility);
-            // After netherite boots
-            // Helmet
-            // Chest
-            // Legs
-            // Boots
-
+            event.getEntries().putAfter(Items.NETHERITE_BOOTS.getDefaultInstance(), ImprovedObsidianItems.OBSIDERITE_HELMET.getDefaultInstance(), visibility);
+            event.getEntries().putAfter(ImprovedObsidianItems.OBSIDERITE_HELMET.getDefaultInstance(), ImprovedObsidianItems.OBSIDERITE_CHESTPLATE.getDefaultInstance(), visibility);
+            event.getEntries().putAfter(ImprovedObsidianItems.OBSIDERITE_CHESTPLATE.getDefaultInstance(), ImprovedObsidianItems.OBSIDERITE_LEGGINGS.getDefaultInstance(), visibility);
+            event.getEntries().putAfter(ImprovedObsidianItems.OBSIDERITE_LEGGINGS.getDefaultInstance(), ImprovedObsidianItems.OBSIDERITE_BOOTS.getDefaultInstance(), visibility);
         } else if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.getEntries().putAfter(Items.GUNPOWDER.getDefaultInstance(), ImprovedObsidianItems.OBSIDERITE_DUST.getDefaultInstance(), visibility);
             event.getEntries().putAfter(Items.GUNPOWDER.getDefaultInstance(), ImprovedObsidianItems.OBSIDIAN_DUST.getDefaultInstance(), visibility);

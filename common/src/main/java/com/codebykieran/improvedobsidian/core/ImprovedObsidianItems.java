@@ -4,6 +4,8 @@ import com.codebykieran.improvedobsidian.item.*;
 import net.minecraft.world.entity.EquipmentSlotGroup;
 import net.minecraft.world.entity.ai.attributes.AttributeModifier;
 import net.minecraft.world.entity.ai.attributes.Attributes;
+import net.minecraft.world.item.ArmorItem;
+import net.minecraft.world.item.ArmorMaterials;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.component.ItemAttributeModifiers;
 import static net.minecraft.world.item.Item.BASE_ATTACK_DAMAGE_ID;
@@ -37,13 +39,23 @@ public class ImprovedObsidianItems {
         .attributes(generateItemAttributes(6.5,-3.0f)
     ));
 
-
     // Armor
-    // OBSIDERITE_BOOTS
-    // OBSIDERITE_CHESTPLATE
-    // OBSIDERITE_HELMET
-    // OBSIDERITE_LEGGINGS
-
+    public static final Item OBSIDERITE_BOOTS = new ObsideriteBootsItem(new Item.Properties()
+            .fireResistant()
+            .durability(ArmorItem.Type.BOOTS.getDurability(40))
+    );
+    public static final Item OBSIDERITE_CHESTPLATE = new ObsideriteChestplateItem(new Item.Properties()
+            .fireResistant()
+            .durability(ArmorItem.Type.CHESTPLATE.getDurability(40))
+    );
+    public static final Item OBSIDERITE_HELMET = new ObsideriteHelmetItem(new Item.Properties()
+        .fireResistant()
+        .durability(ArmorItem.Type.HELMET.getDurability(40))
+    );
+    public static final Item OBSIDERITE_LEGGINGS = new ObsideriteLeggingsItem(new Item.Properties()
+            .fireResistant()
+            .durability(ArmorItem.Type.LEGGINGS.getDurability(40))
+    );
 
     // Combat
     public static final Item OBSIDERITE_SWORD = new ObsideriteSwordItem(new Item.Properties()
