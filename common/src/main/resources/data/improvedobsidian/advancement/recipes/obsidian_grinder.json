@@ -1,0 +1,47 @@
+{
+    "display": {
+        "icon": {
+            "count": 1,
+            "id": "improvedobsidian:obsidian_grinder"
+        },
+        "title": {
+            "translate": "advancements.improvedobsidian.obsidian_grinder.title"
+        },
+        "description": {
+            "translate": "advancements.improvedobsidian.obsidian_grinder.description"
+        },
+        "frame": "goal",
+        "show_toast": true
+    },
+    "parent": "minecraft:recipes/root",
+    "criteria": {
+        "has_obsidian": {
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:obsidian"
+                    }
+                ]
+            },
+            "trigger": "minecraft:inventory_changed"
+        },
+        "has_the_recipe": {
+            "conditions": {
+                "recipe": "minecraft:diamond_block"
+            },
+            "trigger": "minecraft:recipe_unlocked"
+        }
+    },
+    "requirements": [
+        [
+            "has_obsidian",
+            "has_the_recipe"
+        ]
+    ],
+    "rewards": {
+        "recipes": [
+            "improvedobsidian:obsidian_grinder"
+        ],
+        "experience": 1
+    }
+}

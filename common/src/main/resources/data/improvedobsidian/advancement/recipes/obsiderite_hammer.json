@@ -1,4 +1,5 @@
 {
+    "parent": "improvedobsidian:obsiderite/obtain_obsiderite_ingot",
     "display": {
         "icon": {
             "count": 1,
@@ -13,7 +14,6 @@
         "frame": "task",
         "show_toast": true
     },
-    "parent": "minecraft:recipes/root",
     "criteria": {
         "has_obsiderite_hammer": {
             "conditions": {

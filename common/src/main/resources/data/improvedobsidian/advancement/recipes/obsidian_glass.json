@@ -1,5 +1,5 @@
 {
-    "parent": "minecraft:recipes/root",
+    "parent": "improvedobsidian:obsiderite/root",
     "criteria": {
         "has_obsidian_glass": {
             "conditions": {

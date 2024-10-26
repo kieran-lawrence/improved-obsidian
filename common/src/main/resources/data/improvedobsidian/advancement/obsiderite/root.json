@@ -1,0 +1,36 @@
+{
+  "criteria": {
+    "has_obsidian_dust": {
+      "conditions": {
+        "items": [
+          {
+            "items": "improvedobsidian:obsidian_dust"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "frame": "task",
+    "background": "improvedobsidian:textures/block/obsiderite_block.png",
+    "description": {
+      "translate": "advancements.improvedobsidian.obsiderite.root.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "improvedobsidian:obsidian_dust"
+    },
+    "title": {
+      "translate": "advancements.improvedobsidian.obsiderite.root.title"
+    },
+    "show_toast": false
+  },
+  "requirements": [
+    [
+      "has_obsidian_dust"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

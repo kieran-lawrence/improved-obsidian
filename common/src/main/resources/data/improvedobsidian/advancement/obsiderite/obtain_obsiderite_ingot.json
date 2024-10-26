@@ -1,5 +1,5 @@
 {
-    "parent": "improvedobsidian:recipes/root",
+    "parent": "improvedobsidian:obsiderite/root",
     "criteria": {
         "has_obsiderite_ingot": {
             "conditions": {
@@ -23,6 +23,20 @@
       "title": {
           "translate": "advancements.improvedobsidian.obsiderite_ingot.title"
       }
+    },
+    "rewards": {
+        "recipes": [
+            "improvedobsidian:obsiderite_helmet_smithing",
+            "improvedobsidian:obsiderite_chestplate_smithing",
+            "improvedobsidian:obsiderite_leggings_smithing",
+            "improvedobsidian:obsiderite_sword_smithing",
+            "improvedobsidian:obsiderite_pickaxe_smithing",
+            "improvedobsidian:obsiderite_shovel_smithing",
+            "improvedobsidian:obsiderite_axe_smithing",
+            "improvedobsidian:obsiderite_hoe_smithing",
+            "improvedobsidian:obsiderite_block"
+        ],
+        "experience": 5
     },
     "requirements": [
         [
