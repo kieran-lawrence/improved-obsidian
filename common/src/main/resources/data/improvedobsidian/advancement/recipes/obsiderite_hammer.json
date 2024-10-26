@@ -1,7 +1,8 @@
 {
     "display": {
         "icon": {
-            "item": "improvedobsidian:obsiderite_hammer"
+            "count": 1,
+            "id": "improvedobsidian:obsiderite_hammer"
         },
         "title": {
             "translate": "advancements.improvedobsidian.obsiderite_hammer.title"
@@ -18,9 +19,7 @@
             "conditions": {
                 "items": [
                     {
-                        "items": [
-                            "improvedobsidian:obsiderite_hammer"
-                        ]
+                        "items": "improvedobsidian:obsiderite_hammer"
                     }
                 ]
             },

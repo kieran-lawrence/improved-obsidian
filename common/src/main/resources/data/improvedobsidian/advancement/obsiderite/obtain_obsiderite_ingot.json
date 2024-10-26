@@ -1,0 +1,33 @@
+{
+    "parent": "improvedobsidian:recipes/root",
+    "criteria": {
+        "has_obsiderite_ingot": {
+            "conditions": {
+                "items": [
+                    {
+                        "items": "improvedobsidian:obsiderite_ingot"
+                    }
+                ]
+            },
+            "trigger": "minecraft:inventory_changed"
+        }
+    },
+    "display": {
+        "description": {
+            "translate": "advancements.improvedobsidian.obsiderite_ingot.description"
+        },
+      "icon": {
+          "count": 1,
+          "id": "improvedobsidian:obsiderite_ingot"
+      },
+      "title": {
+          "translate": "advancements.improvedobsidian.obsiderite_ingot.title"
+      }
+    },
+    "requirements": [
+        [
+           "has_obsiderite_ingot"
+        ]
+    ],
+    "sends_telemetry_event": true
+}

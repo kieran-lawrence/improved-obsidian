@@ -1,13 +1,11 @@
 {
     "parent": "minecraft:recipes/root",
     "criteria": {
-        "has_obsidian_dust": {
+        "has_obsidian_glass": {
             "conditions": {
                 "items": [
                     {
-                        "items": [
-                            "improvedobsidian:obsidian_dust"
-                        ]
+                        "items": "improvedobsidian:obsidian_glass"
                     }
                 ]
             },
@@ -16,13 +14,12 @@
     },
     "requirements": [
         [
-            "has_obsidian_dust"
+            "has_obsidian_glass"
         ]
     ],
     "rewards": {
         "recipes": [
-            "improvedobsidian:obsidian_glass"
-        ],
-        "experience": 0.5
+            "improvedobsidian:obsidian_table_lamp"
+        ]
     }
 }

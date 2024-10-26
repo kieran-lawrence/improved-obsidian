@@ -1,28 +1,20 @@
 {
-  "parent": "improvedobsidian:obsiderite_ingot",
+  "parent": "improvedobsidian:obsiderite/obtain_obsiderite_ingot",
   "criteria": {
     "obsiderite_armor": {
       "conditions": {
         "items": [
           {
-            "items": [
-              "improvedobsidian:obsiderite_helmet"
-            ]
+            "items": "improvedobsidian:obsiderite_helmet"
           },
           {
-            "items": [
-              "improvedobsidian:obsiderite_chestplate"
-            ]
+            "items": "improvedobsidian:obsiderite_chestplate"
           },
           {
-            "items": [
-              "improvedobsidian:obsiderite_leggings"
-            ]
+            "items": "improvedobsidian:obsiderite_leggings"
           },
           {
-            "items": [
-              "improvedobsidian:obsiderite_boots"
-            ]
+            "items": "improvedobsidian:obsiderite_boots"
           }
         ]
       },
@@ -30,17 +22,14 @@
     }
   },
   "display": {
-    "announce_to_chat": true,
     "description": {
       "translate": "advancements.improvedobsidian.obsiderite_armor.description"
     },
     "frame": "challenge",
-    "hidden": false,
     "icon": {
-      "item": "improvedobsidian:obsiderite_chestplate",
-      "nbt": "{Damage:0}"
+      "count": 1,
+      "id": "improvedobsidian:obsiderite_chestplate"
     },
-    "show_toast": true,
     "title": {
       "translate": "advancements.improvedobsidian.obsiderite_armor.title"
     }
@@ -52,5 +41,6 @@
   ],
   "rewards": {
     "experience": 100
-  }
+  },
+  "sends_telemetry_event": true
 }

@@ -1,7 +1,8 @@
 {
     "display": {
         "icon": {
-            "item": "improvedobsidian:obsidian_shard"
+            "count": 1,
+            "id": "improvedobsidian:obsidian_shard"
         },
         "title": {
             "translate": "advancements.improvedobsidian.obsidian_shard.title"
