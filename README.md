@@ -1,5 +1,7 @@
 # Improved Obsidian
 
+## Note: This is a WIP, still ironing out some kinks for 1.21 but aim to have both Forge and Fabric up and running shortly!
+
 Improved Obsidian was created because vanilla Minecraft has little to no use for Obsidian.
 
 It was on this thought I built Improved Obsidian, to enhance Minecraft by adding a vanilla-like experience but with lots of cool additions.
