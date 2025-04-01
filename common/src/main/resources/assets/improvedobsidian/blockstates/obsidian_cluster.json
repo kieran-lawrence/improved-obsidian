@@ -1,0 +1,30 @@
+{
+  "variants": {
+    "facing=down": {
+      "model": "improvedobsidian:block/obsidian_cluster",
+      "x": 180
+    },
+    "facing=east": {
+      "model": "improvedobsidian:block/obsidian_cluster",
+      "x": 90,
+      "y": 90
+    },
+    "facing=north": {
+      "model": "improvedobsidian:block/obsidian_cluster",
+      "x": 90
+    },
+    "facing=south": {
+      "model": "improvedobsidian:block/obsidian_cluster",
+      "x": 90,
+      "y": 180
+    },
+    "facing=up": {
+      "model": "improvedobsidian:block/obsidian_cluster"
+    },
+    "facing=west": {
+      "model": "improvedobsidian:block/obsidian_cluster",
+      "x": 90,
+      "y": 270
+    }
+  }
+}

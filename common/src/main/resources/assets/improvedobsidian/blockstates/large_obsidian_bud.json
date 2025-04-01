@@ -1,0 +1,30 @@
+{
+  "variants": {
+    "facing=down": {
+      "model": "improvedobsidian:block/large_obsidian_bud",
+      "x": 180
+    },
+    "facing=east": {
+      "model": "improvedobsidian:block/large_obsidian_bud",
+      "x": 90,
+      "y": 90
+    },
+    "facing=north": {
+      "model": "improvedobsidian:block/large_obsidian_bud",
+      "x": 90
+    },
+    "facing=south": {
+      "model": "improvedobsidian:block/large_obsidian_bud",
+      "x": 90,
+      "y": 180
+    },
+    "facing=up": {
+      "model": "improvedobsidian:block/large_obsidian_bud"
+    },
+    "facing=west": {
+      "model": "improvedobsidian:block/large_obsidian_bud",
+      "x": 90,
+      "y": 270
+    }
+  }
+}

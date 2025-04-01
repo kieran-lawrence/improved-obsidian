@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "improvedobsidian:block/small_obsidian_bud"
+  }
+}

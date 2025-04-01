@@ -1,0 +1,11 @@
+{
+  "parent": "item/amethyst_bud",
+  "textures": {
+    "layer0": "improvedobsidian:block/medium_obsidian_bud"
+  },
+  "display": {
+    "fixed": {
+      "translation": [ 0, 6, 0 ]
+    }
+  }
+}
