@@ -1,6 +1,7 @@
 package com.codebykieran.improvedobsidian;
 
 import com.codebykieran.improvedobsidian.blocks.BuddingObsidianBlock;
+import com.codebykieran.improvedobsidian.blocks.ObsideriteInfusingStationBlock;
 import com.codebykieran.improvedobsidian.blocks.ObsidianClusterBlock;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
@@ -56,6 +57,15 @@ public class ModBlocks {
             "small_obsidian_bud",
             properties -> new ObsidianClusterBlock(3.0F, 8.0F, properties),
             BlockBehaviour.Properties.ofLegacyCopy(OBSIDIAN_CLUSTER).sound(SoundType.SMALL_AMETHYST_BUD).lightLevel(p_187409_ -> 1)
+    );
+    public static final Block OBSIDERITE_INFUSING_STATION = register("obsiderite_infusing_station",
+            ObsideriteInfusingStationBlock::new,
+            BlockBehaviour.Properties.of()
+                    .strength(50.0F, 1200.0F)
+                    .mapColor(MapColor.STONE)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .requiresCorrectToolForDrops()
+                    .lightLevel(p_187409_ -> 13)
     );
 
     private static Block register(String name, Function<BlockBehaviour.Properties, Block> factory, BlockBehaviour.Properties properties) {

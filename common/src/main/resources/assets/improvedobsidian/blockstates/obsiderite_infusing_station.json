@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "lit=false": {
+      "model": "improvedobsidian:block/obsiderite_infusing_station"
+    },
+    "lit=true": {
+      "model": "improvedobsidian:block/obsiderite_infusing_station_on"
+    }
+  }
+}
