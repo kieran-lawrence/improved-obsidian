@@ -5,5 +5,11 @@
   "block.improvedobsidian.medium_obsidian_bud": "Medium Obsidian Bud",
   "block.improvedobsidian.large_obsidian_bud": "Large Obsidian Bud",
   "block.improvedobsidian.obsiderite_infusing_station": "Obsiderite Infusing Station",
-  "item.improvedobsidian.obsidian_shard": "Obsidian Shard"
+  "item.improvedobsidian.obsidian_shard": "Obsidian Shard",
+  "item.improvedobsidian.obsiderite_upgrade_smithing_template": "Smithing Template",
+  "item.improvedobsidian.obsiderite_upgrade_smithing_template.new": "Obsiderite Upgrade",
+  "upgrade.improvedobsidian.obsiderite_upgrade": "Obsiderite Upgrade",
+  "item.improvedobsidian.smithing_template.obsiderite_upgrade.applies_to": "Netherite Equipment",
+  "item.improvedobsidian.smithing_template.obsiderite_upgrade.base_slot_description": "Add netherite armor, weapon, or tool",
+  "item.improvedobsidian.smithing_template.obsiderite_upgrade.ingredients": "Obsiderite Ingot"
 }

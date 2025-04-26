@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "improvedobsidian:item/obsiderite_upgrade_smithing_template"
+  }
+}
