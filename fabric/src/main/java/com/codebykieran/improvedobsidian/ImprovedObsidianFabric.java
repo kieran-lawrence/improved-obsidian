@@ -32,6 +32,16 @@ public class ImprovedObsidianFabric implements ModInitializer {
             itemGroup.accept(ModItems.LARGE_OBSIDIAN_BUD);
             itemGroup.accept(ModItems.OBSIDIAN_SHARD);
             itemGroup.accept(ModItems.OBSIDERITE_UPGRADE_SMITHING_TEMPLATE);
+            itemGroup.accept(ModItems.OBSIDERITE_SWORD);
+            itemGroup.accept(ModItems.OBSIDERITE_INGOT);
+            itemGroup.accept(ModItems.OBSIDERITE_HOE);
+            itemGroup.accept(ModItems.OBSIDERITE_PICKAXE);
+            itemGroup.accept(ModItems.OBSIDERITE_SHOVEL);
+            itemGroup.accept(ModItems.OBSIDERITE_AXE);
+            itemGroup.accept(ModItems.OBSIDERITE_BOOTS);
+            itemGroup.accept(ModItems.OBSIDERITE_HELMET);
+            itemGroup.accept(ModItems.OBSIDERITE_CHESTPLATE);
+            itemGroup.accept(ModItems.OBSIDERITE_LEGGINGS);
         });
     }
     private static void enableTransparentBlocks() {

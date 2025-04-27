@@ -1,0 +1,10 @@
+{
+  "asset_name": "obsiderite",
+  "description": {
+    "color": "#625859",
+    "translate": "trim_material.improvedobsidian.obsiderite"
+  },
+  "override_armor_assets": {
+    "improvedobsidian:obsiderite": "netherite_darker"
+  }
+}

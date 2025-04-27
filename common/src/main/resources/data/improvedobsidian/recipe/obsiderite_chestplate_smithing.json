@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": "improvedobsidian:obsiderite_upgrade_smithing_template",
+  "addition": "#improvedobsidian:obsiderite_tool_materials",
+  "base": "minecraft:netherite_chestplate",
+  "result": {
+    "id": "improvedobsidian:obsiderite_chestplate"
+  }
+}

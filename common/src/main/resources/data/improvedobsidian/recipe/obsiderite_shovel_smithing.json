@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:smithing_transform",
+    "addition": "#improvedobsidian:obsiderite_tool_materials",
+    "base": "minecraft:netherite_shovel",
+    "result": {
+        "id": "improvedobsidian:obsiderite_shovel"
+    },
+    "template": "improvedobsidian:obsiderite_upgrade_smithing_template"
+}

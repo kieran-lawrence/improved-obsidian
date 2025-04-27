@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:smithing_transform",
+    "addition": "#improvedobsidian:obsiderite_tool_materials",
+    "base": "minecraft:netherite_hoe",
+    "result": {
+        "id": "improvedobsidian:obsiderite_hoe"
+    },
+    "template": "improvedobsidian:obsiderite_upgrade_smithing_template"
+}

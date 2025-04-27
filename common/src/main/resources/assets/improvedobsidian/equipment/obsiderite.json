@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "improvedobsidian:obsiderite"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "improvedobsidian:obsiderite"
+      }
+    ]
+  }
+}

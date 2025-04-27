@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": "improvedobsidian:obsidian_shard",
+    "C": "minecraft:netherite_ingot"
+  },
+  "pattern": [
+    "###",
+    "#C#",
+    "###"
+  ],
+  "result": {
+    "count": 1,
+    "id": "improvedobsidian:obsiderite_ingot"
+  }
+}
