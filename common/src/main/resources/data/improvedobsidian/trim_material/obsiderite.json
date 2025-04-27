@@ -5,6 +5,6 @@
     "translate": "trim_material.improvedobsidian.obsiderite"
   },
   "override_armor_assets": {
-    "improvedobsidian:obsiderite": "netherite_darker"
+    "minecraft:netherite": "netherite_darker"
   }
 }

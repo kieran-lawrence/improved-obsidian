@@ -1,0 +1,46 @@
+{
+  "parent": "improvedobsidian:obsidian/root",
+  "criteria": {
+    "obsiderite_armor": {
+      "conditions": {
+        "items": [
+          {
+            "items": "improvedobsidian:obsiderite_helmet"
+          },
+          {
+            "items": "improvedobsidian:obsiderite_chestplate"
+          },
+          {
+            "items": "improvedobsidian:obsiderite_leggings"
+          },
+          {
+            "items": "improvedobsidian:obsiderite_boots"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.obsidian.obsiderite_armor.description"
+    },
+    "frame": "challenge",
+    "icon": {
+      "count": 1,
+      "id": "improvedobsidian:obsiderite_chestplate"
+    },
+    "title": {
+      "translate": "advancements.obsidian.obsiderite_armor.title"
+    }
+  },
+  "requirements": [
+    [
+      "obsiderite_armor"
+    ]
+  ],
+  "rewards": {
+    "experience": 150
+  },
+  "sends_telemetry_event": true
+}

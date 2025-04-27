@@ -7,7 +7,7 @@ import net.minecraft.tags.TagKey;
 import net.minecraft.world.item.Item;
 
 public final class ModItemTags {
-    public static final TagKey<Item> OBSIDERITE_TOOL_MATERIALS = bind("obsiderite_tool_materials.json");
+    public static final TagKey<Item> OBSIDERITE_TOOL_MATERIALS = bind("obsiderite_tool_materials");
     public static final TagKey<Item> REPAIRS_OBSIDERITE_ARMOR = bind("repairs_obsiderite_armor");
 
     private static TagKey<Item> bind(String name) {

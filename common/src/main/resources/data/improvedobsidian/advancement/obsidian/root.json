@@ -1,0 +1,35 @@
+{
+  "criteria": {
+    "has_obsidian_shard": {
+      "conditions": {
+        "items": [
+          {
+            "items": "improvedobsidian:obsidian_shard"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "background": "minecraft:gui/advancements/backgrounds/nether",
+    "description": {
+      "translate": "advancements.obsidian.root.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:red_nether_bricks"
+    },
+    "show_toast": false,
+    "title": {
+      "translate": "advancements.obsidian.root.title"
+    }
+  },
+  "requirements": [
+    [
+      "has_obsidian_shard"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

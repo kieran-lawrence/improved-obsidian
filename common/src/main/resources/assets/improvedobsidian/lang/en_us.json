@@ -38,5 +38,10 @@
   "item.improvedobsidian.smithing_template.obsiderite_upgrade.additions_slot_description": "Add Obsiderite Ingot",
   "item.improvedobsidian.smithing_template.obsiderite_upgrade.applies_to": "Netherite Equipment",
   "item.improvedobsidian.smithing_template.obsiderite_upgrade.base_slot_description": "Add netherite armor, weapon, or tool",
-  "item.improvedobsidian.smithing_template.obsiderite_upgrade.ingredients": "Obsiderite Ingot"
+  "item.improvedobsidian.smithing_template.obsiderite_upgrade.ingredients": "Obsiderite Ingot",
+
+  "advancements.obsidian.root.description": "Who knew it was so useful?",
+  "advancements.obsidian.root.title": "Improved Obsidian",
+  "advancements.obsidian.obsiderite_armor.description": "Get a full suit of Obsiderite armor",
+  "advancements.obsidian.obsiderite_armor.title": "Cover Me in Obsidian"
 }
