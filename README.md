@@ -13,19 +13,19 @@ It was on this thought I built Improved Obsidian, to enhance Minecraft by adding
 - A new tier of weapons & armour, stronger than Netherite
 - New crafting stations for unleashing the potential of Obsidian
 - Various decorative blocks, all based around Obsidian
-<p>
-<details>
-    <summary>SPOILERS</summary>
-    [Improved Obsidian Example Items](https://i.imgur.com/IWWbihL.png)
-    [Improved Obsidian Crafting Stations](https://i.imgur.com/oLYUUnC.png)
-    [Improved Obsidian Deco Blocks](https://i.imgur.com/MIhb5hJ.jpg)
-</details>
+    <p>
+    <details>
+        <summary>SPOILERS</summary>
+        <img src="https://i.imgur.com/IWWbihL.png" alt="Improved Obsidian Example Items">
+        <img src="https://i.imgur.com/oLYUUnC.png" alt="Improved Obsidian Crafting Stations">
+        <img src="https://i.imgur.com/MIhb5hJ.jpg" alt="Improved Obsidian Deco Blocks">
+    </details>
 
 ### Want to dive in and figure things out on your own? No problems! If not, take a peek below for some crafting tips.
 
 <details>
     <summary>SPOILER</summary>
-    [Improved Obsidian Crafting Guide](https://i.imgur.com/RubRdhW.png)
+    <img src="https://i.imgur.com/RubRdhW.png" alt="Improved Obsidian Crafting Guide">
 </details>
 
 <p>
