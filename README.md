@@ -16,16 +16,16 @@ It was on this thought I built Improved Obsidian, to enhance Minecraft by adding
 <p>
 <details>
     <summary>SPOILERS</summary>
-    ![Improved Obsidian Example Items](https://i.imgur.com/IWWbihL.png)
-    ![Improved Obsidian Crafting Stations](https://i.imgur.com/oLYUUnC.png)
-    ![Improved Obsidian Deco Blocks](https://i.imgur.com/MIhb5hJ.jpg)
+    [Improved Obsidian Example Items](https://i.imgur.com/IWWbihL.png)
+    [Improved Obsidian Crafting Stations](https://i.imgur.com/oLYUUnC.png)
+    [Improved Obsidian Deco Blocks](https://i.imgur.com/MIhb5hJ.jpg)
 </details>
 
 ### Want to dive in and figure things out on your own? No problems! If not, take a peek below for some crafting tips.
 
 <details>
     <summary>SPOILER</summary>
-    ![Improved Obsidian Crafting Guide](https://i.imgur.com/RubRdhW.png)
+    [Improved Obsidian Crafting Guide](https://i.imgur.com/RubRdhW.png)
 </details>
 
 <p>
